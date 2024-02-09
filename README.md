@@ -1,20 +1,20 @@
-Steps to run the code:
+**Steps to run the code:**
 
-go run main.go
-
-
-run go program with race check:
-
-go run -race main.go
+  go run main.go
 
 
-Visualize trace:
+**run go program with race check:**
 
-go tool trace concurrentTrace.out
-
-go tool trace parallelTrace.out
+  go run -race main.go
 
 
-Visualize PPROF result:
+**Visualize trace:**
 
-go tool pprof -http=:8080 <PROFILE_NAME>.pb.gz
+  go tool trace concurrentTrace.out
+
+  go tool trace parallelTrace.out
+
+
+**Visualize PPROF result:**
+
+  go tool pprof -http=:8080 <PROFILE_NAME>.pb.gz
